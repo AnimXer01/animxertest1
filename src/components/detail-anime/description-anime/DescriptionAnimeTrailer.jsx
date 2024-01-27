@@ -7,7 +7,7 @@ const DescriptionAnimeTrailer = ({ data }) => {
       <iframe
         width="320"
         height="160"
-        src={`https://www.youtube.com/embed/${data?.trailer?.id}`}
+        src={`https://www.youtube-nocookie.com/embed/${data?.trailer?.id}`}
         title={data?.title?.romaji}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
