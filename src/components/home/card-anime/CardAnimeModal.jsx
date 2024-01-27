@@ -28,7 +28,7 @@ const CardAnimeModal = ({ data, ...props }) => {
       <iframe
         width={sm ? "320" : "630"}
         height="357"
-        src={`https://www.youtube.com/embed/${data?.trailer?.id}`}
+        src={`https://www.youtube-nocookie.com/embed/${data?.trailer?.id}`}
         title={data?.title?.romaji}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
